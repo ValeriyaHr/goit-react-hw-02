@@ -1,0 +1,10 @@
+.feedbackWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .heart {
+    color: red;
+  }

@@ -1,0 +1,23 @@
+.buttonWrapper {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    width: 90px;
+    background-color: #9e8383;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1;
+    border: 1px solid #844f4f;
+    border-radius: 5px;
+    transition: background-color 250ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .button:hover {
+    border: 1px solid #844f4f;
+    background-color: #9e8383;
+    color: black;
+  }
