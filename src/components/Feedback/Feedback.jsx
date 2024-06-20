@@ -4,13 +4,13 @@ const Feedback = ({ good, neutral, bad, totalFeedback, positiveFeedback }) => {
     <>
       <div className={css.feedbackWrapper}>
         <p>
-          <span className={css.heart}>❤</span> Good: {good}
+          Good: {good}
         </p>
         <p>
-          <span>😐</span>Neutral: {neutral}
+          Neutral: {neutral}
         </p>
         <p>
-          <span>😢</span>Bad: {bad}
+          Bad: {bad}
         </p>
       </div>
       <div className={css.feedbackWrapper}>
